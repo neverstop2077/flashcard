@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.thenounproject.com/png/4767-200.png"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>FlashCards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header_logo">
+                <i class="header_icon fa-solid fa-note-sticky"></i><span class="header_word">Flashcards</span>
+            </div>
+            <div>
+                <button class="header_btn addBtn">Add Card</button>
+                <button class="header_btn delBtn">Delete Cards</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="user_input">
+                <h2 class="user-input-header">Create Flashcard</h2>
+                <div class="user_input-form">
+                    <label for="user_input-question">Question</label>
+                    <input type="text" id="user_input-question" autocomplete="off">
+                </div>
+                <div class="user_input-form">
+                    <label for="user_input-answer">Answer</label>
+                    <input type="text" id="user_input-answer" autocomplete="off">
+                </div>
+                <button class="user_input-btn" id="save-btn">Save</button>
+                <button class="user_input-btn" id="close-btn">Close</button>
+            </div>
+            <div class="cards-list">
+                
+            </div>  
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

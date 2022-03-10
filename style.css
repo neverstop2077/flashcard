@@ -57,7 +57,7 @@ html{
 }
 
 .content{
-    background: #f5f5f5;
+    background: conic-gradient(at top right, slategray, white);
     min-height: 100%;
     display: flex;
     flex-direction: column;
